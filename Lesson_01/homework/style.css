@@ -7,7 +7,7 @@ body {
 
 header {
     text-align: center;
-    background-color: #007acc;
+    background-color: #435058;
     color: #fff;
     padding: 20px;
 }
@@ -30,7 +30,7 @@ ol{
     border: 1px solid #ddd;
 }
 .profile-photo {
-    border: 7px solid rgb(148, 67, 67); /* Цвет и толщина рамки */
+    border: 5px solid rgb(52, 7, 58); /* Цвет и толщина рамки */
     border-radius: 50%; /* Закругленные углы для круглой фотографии */
     width: 300px; /* Ширина фотографии */
     height: 250px; /* Высота фотографии */
