@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #007acc;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+ol{
+    color: #007acc;
+}
+
+#about {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.profile-photo {
+    border: 7px solid rgb(148, 67, 67); /* Цвет и толщина рамки */
+    border-radius: 50%; /* Закругленные углы для круглой фотографии */
+    width: 300px; /* Ширина фотографии */
+    height: 250px; /* Высота фотографии */
+    display: block; /* Чтобы центрировать фотографию */
+    margin: 0 auto; /* Центрирование фотографии */
+}
