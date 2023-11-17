@@ -1,0 +1,46 @@
+.bww-logo{
+    width: 28px;
+    height: 28px;
+}
+.wal-logo{
+    width: 160px;
+}
+
+.navigation-link{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+}
+a:hover{
+    color: red;
+}
+.navigation-menu{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: flex-end;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 5px;
+}
+main{
+    background-color: black;
+    text-align: center;
+    height: 200vh;
+}
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+.wal-logo{
+    position: relative;
+    top: 60px;
+}
