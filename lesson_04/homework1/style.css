@@ -39,10 +39,12 @@ main{
     width: 800px;
     display: flex;
     justify-content: center;
-    background-color: rgb(196, 136, 136);
+    background-image: url(./media/fon.jpg);
+    background-size: auto 100%;
+    background-position: center;
+    
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: px;
     box-shadow: -40px 0 10px -10px rgba(0, 0, 0, 0.2), 40px 0 10px -10px rgba(0, 0, 0, 0.2);
 }
