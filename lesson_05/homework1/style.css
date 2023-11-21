@@ -1,0 +1,41 @@
+main {
+  height: 200vh;
+}
+
+/* твой код */
+.navbar {
+  position: sticky; /* Положение .navbar при прокрутке */
+  top: 0; /* Отступ сверху для работы sticky */
+  width: 100%; /* Ширина .navbar */
+  display: flex; /* Расположение элементов в строку */
+  background-color: rgb(102, 102, 102); /* Фон для всего контейнера .navbar */
+  padding: 10px; /* Добавление внутренних отступов для разделения элементов */
+  justify-content: space-around; /* Расположение элементов по центру */
+}
+
+
+.navbar a {
+  display: inline-block; /* Строчно-блочный элемент */
+  color: white; /* Цвет текста */
+  font-family: 'NarrowNews', sans-serif; /* Шрифт */
+  /* padding: 0px 40px; Добавление отступов между элементами */
+}
+
+.interactive-text {
+  font-size: 20px;
+  transition: color 0.3s, transform 0.3s; /* Анимация при наведении */
+}
+
+.interactive-text:hover {
+  color: blue; /* Изменение цвета текста при наведении */
+  transform: scale(1.1); /* Масштабирование текста при наведении */
+  cursor: pointer; /* Изменение курсора при наведении */
+}
+
+
+@font-face {
+  font-family: "NarrowNews";  
+  src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
