@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CityPage from './CityPage/CityPage';
 import Counter from './Counter/counter';
+import Sandwich from './Sandwich/Sandwich';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,8 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
-    <CityPage />
-    <Counter />
+    <Sandwich />
   </React.StrictMode>
 );
 
