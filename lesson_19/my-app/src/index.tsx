@@ -10,6 +10,7 @@ import Sandwich from './Sandwich/Sandwich';
 import Fruit from './Fruit/Fruit';
 import Parent from './Parent/parent';
 import FlowerCard from './Flower/FlowerCard';
+import Playground from './Playground/Playground';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -17,6 +18,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <FlowerCard />
+    <Playground />
     <App />
     <CityPage />
     <Counter />
